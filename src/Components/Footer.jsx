@@ -42,7 +42,7 @@ function Footer() {
         </div>
       </div>
       <div className="bg-gray-800 text-center py-4">
-        <p className="mb-0 text-gray-400">&copy; {new Date().getFullYear()} Apna College. All rights reserved.</p>
+        <p className="mb-0 text-gray-400">&copy; {new Date().getFullYear()} Student Management System. All rights reserved.</p>
       </div>
     </footer>
   );

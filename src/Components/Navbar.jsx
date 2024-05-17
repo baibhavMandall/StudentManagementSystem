@@ -15,7 +15,13 @@ export default function Navbar() {
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img src="/vite.svg" width={100} height={80} className="h-8" alt="" />
+            <img
+              src="/vite.svg"
+              width={100}
+              height={80}
+              className="h-8"
+              alt=""
+            />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               SIS
             </span>
@@ -94,7 +100,7 @@ export default function Navbar() {
             </ul>
           </div>
           <div className="items-center flex-shrink-0 hidden lg:flex text-blue-500">
-            <button className="self-center px-8 py-3 rounded">
+            <button className="self-center px-8 py-3 rounded ">
               <Link to={"/register"}>Sign In</Link>
             </button>
             <button className="self-center px-8 py-3 font-semibold rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">

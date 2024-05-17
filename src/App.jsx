@@ -6,6 +6,9 @@ import Administration from "./components/Administration"; // Fixed spelling
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Register from "./components/register";
+import Login from "./components/Login";
+import ForgetPassword from "./components/ForgotPassword";
 
 function App() {
   return (
@@ -17,6 +20,10 @@ function App() {
           <Route exact path="/administration" element={<Administration />} />
           <Route exact path="/about-us" element={<About />} />
           <Route exact path="/contact-us" element={<Contact />} />
+          <Route exact path="/register" element={<Register />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/forgot-password" element={<ForgetPassword />} />
+          <Route path="*" element={<h1>404 Page Not Found</h1>} />
         </Routes>
       </div>
       <Footer />

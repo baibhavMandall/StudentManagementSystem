@@ -61,7 +61,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  to="/about"
+                  to="/about-us"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   About
@@ -85,14 +85,6 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  to="/about-us"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  About us
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/contact-us"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
@@ -101,7 +93,7 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <div className="items-center flex-shrink-0 hidden lg:flex">
+          <div className="items-center flex-shrink-0 hidden lg:flex text-blue-500">
             <button className="self-center px-8 py-3 rounded">
               <Link to={"/register"}>Sign In</Link>
             </button>

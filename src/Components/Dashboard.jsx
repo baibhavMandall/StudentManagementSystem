@@ -1,11 +1,10 @@
-import React from "react";
-
+import Sidebar from "./Sidebar";
 const Dashboard = () => {
   return (
-    <div>
-      <h1 className='text-center'>Hello World</h1>
-    </div>
-  );
-};
+    <>
+    <Sidebar/>
+    </>
+  )
+}
 
 export default Dashboard;
